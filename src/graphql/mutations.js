@@ -2,9 +2,9 @@
 // this is an auto generated file. This will be overwritten
 
 export const createNote = /* GraphQL */ `
-  mutation CreateTodo(
-    $input: CreateTodoInput!
-    $condition: ModelTodoConditionInput
+  mutation CreateNote(
+    $input: CreateNoteInput!
+    $condition: ModelNoteConditionInput
   ) {
     createNote(input: $input, condition: $condition) {
       id
@@ -16,9 +16,9 @@ export const createNote = /* GraphQL */ `
   }
 `;
 export const updateNote = /* GraphQL */ `
-  mutation UpdateTodo(
-    $input: UpdateTodoInput!
-    $condition: ModelTodoConditionInput
+  mutation UpdateNote(
+    $input: UpdateNoteInput!
+    $condition: ModelNoteConditionInput
   ) {
     updateNote(input: $input, condition: $condition) {
       id
@@ -30,9 +30,9 @@ export const updateNote = /* GraphQL */ `
   }
 `;
 export const deleteNote = /* GraphQL */ `
-  mutation DeleteTodo(
-    $input: DeleteTodoInput!
-    $condition: ModelTodoConditionInput
+  mutation DeleteNote(
+    $input: DeleteNoteInput!
+    $condition: ModelNoteConditionInput
   ) {
     deleteNote(input: $input, condition: $condition) {
       id
